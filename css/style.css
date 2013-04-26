@@ -270,29 +270,63 @@ div#map h1 {
 
 div#devs {
    margin-top: 30px;
-   margin-bottom: 10px;
-  
+   margin-bottom: 30px;
+   margin-left: 50px;
+   margin-right:10px;
    
-    /*right: 10%;*/
-     width: auto;
+   /*right: 10%;*/
+     width: 840px;
     height:auto;
-     font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+     font-family: raleway,Trebuchet MS,Helvetica,Arial,Verdana,sans-serif;
 }
 
 div#devs img {
-  float:right;
-  margin-left: 20px;
-  border:1px solid #008387;
+  /*float:right;
+  margin-left: 20px;*/
   /*background-color:#888888;*/
   height: 150px;
   width: 120px;
+  margin-top:0px;
  
 }
 
 div#devs h1 {
- background-color:#878686;
+ background-color:#000000;
+ color:white;
  margin-top:0px;
  font-family:raleway;
+
+}
+
+#dev_tab {
+ overflow:auto;
+ height:420px;
+ margin-top:-15px;
+}
+
+#dev_tab p{
+ margin-left:30px;
+ margin-top:-20px;
+ font-size:14px;
+}
+
+#dev_tab h3{
+ background-color:#008387;
+ text-align:center;
+ margin-bottom:0px;
+  margin-top:0px;
+}
+
+#dev_tab table {
+ width:823px;
+}
+
+td.dev_info_odd {
+   background-color: #878686;
+   color:white;
+}
+td.dev_info_even {
+   background-color: #F2F2F2;
 }
 
 div#apps {
