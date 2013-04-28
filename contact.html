@@ -6,8 +6,17 @@ transitional.dtd">
 <head>
 <title> Procastination Marketplace | Contact</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<script src="javascript/scripts.js"></script>
-<script src="javascript/jquery.js"></script>
+<script type="text/javascript" src="javascript/scripts.js"></script>
+<script type="text/javascript" src="javascript/jquery.js"></script>
+
+<script>
+$(document).ready(function() {
+  function(){
+    $(#name).css("background-color", "red");
+  }
+   });
+</script>
+
 </head>
 <body background="music_back.png">
 
@@ -37,12 +46,12 @@ transitional.dtd">
  
   <div id="contact_holder">
     <h1>Contact us by email</h1>
-        <form id="contactForm" method="post" action="" onsubmit="return validateForm();">
+        <form id="contactForm" method="post" action="#" onsubmit="return validateForm();">
         
-        <p>Name: <input type="text" name="name" size ="40"></p>
-        <p>Email: <input type="text" name="email" size ="40"></p>
-        <p>Comments:</p><textarea name="message" rows="6" cols="40"></textarea><br><br>
-        <input type="submit" value="Submit">
+        <p>Name: <input type="text" name="name" id="name" size ="40"></p>
+        <p>Email: <input type="text" name="email" id="email" size ="40"></p>
+        <p>Comments:</p><textarea name="message" id="message" rows="6" cols="40"></textarea><br><br>
+        <input type="submit" value="Submit" )">
         <input type="reset" value="Clear form">
         </fieldset>
             

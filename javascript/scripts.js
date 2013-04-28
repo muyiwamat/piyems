@@ -1,28 +1,47 @@
-function validateForm()
-{
-    var required=document.forms["contactForm"]["name"].value;
-    var required2=document.forms["contactForm"]["message"].value;
-    var valid_email =document.forms["contactForm"]["email"].value;
-    var atpos=valid_email.indexOf("@");
-    var dotpos=valid_email.lastIndexOf(".");
+function validateForm() {
+    if (false == validate_required(
+    document.forms["contactForm"]["name"], "Please enter your name")) {
+        return false;
+    }
     
-    if (required==null || required=="")
-      {
-      alert("Please fill in your name");
-      return false;
-  }
-
-    if (atpos<4 || dotpos<atpos+2 || dotpos+2>=valid_email.length)
-      {
-      alert("Please enter a valid e-mail address");
-      return false;
-      }
+    if (false == validate_email(
+    document.forms["contactForm"]["email"], "Valid email must be supplied")) {
+        return false;
+    }
     
-    if (required2==null || required2=="")
-      {
-      alert("Please enter comment");
-      return false;
-  }
+     if (false == validate_required(
+    document.forms["contactForm"]["message"], "You did not enter any comments")) {
+        return false;
+    }
+    
+    
+    
+    return true;
 }
+
+
+
+function validate_required(field, alerttxt) {
+    if (field.value == null || field.value == "") {
+        alert(alerttxt);
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+function validate_email(field, alerttxt) {
+    atpos = field.value.indexOf("@");
+    dotpos = field.value.lastIndexOf(".");
+    if (atpos<3 || dotpos<atpos+4 || dotpos+2>=field.value.length) {
+        alert(alerttxt);
+        return false;
+    } else {
+        return true;
+    }
+}
+
+
 
 
