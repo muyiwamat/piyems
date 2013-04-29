@@ -34,11 +34,11 @@ $(document).ready(function() {
     <h1>Contact us by email</h1>
         <form id="contactForm" method="post" action="#" onsubmit="return validateForm();">
         
-        <p>Name: <input type="text" name="name" id="name" size ="40"></p>
-        <p>Email: <input type="text" name="email" id="email" size ="40"></p>
-        <p>Comments:</p><textarea name="message" id="message" rows="6" cols="40"></textarea><br><br>
-        <input type="submit" value="Submit" )">
-        <input type="reset" value="Clear form">
+        <p><label for="name">Name: </label><input type="text" name="name" id="name" size ="40"></p>
+        <p><label for="email">Email: </label> <input type="text" name="email" id="email" size ="40"></p>
+        <p><label for="message">Comments:</label></p><textarea name="message" id="message" rows="6" cols="40"></textarea></p>
+        <p><input type="submit" value="Submit" )">
+        <input type="reset" value="Clear form"></p>
         </fieldset>
             
         <input type="hidden" name="username" value="t02mam12">

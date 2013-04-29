@@ -6,6 +6,7 @@ transitional.dtd">
 <head>
 <title> Procastination Marketplace</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet"  type="text/css" href="css/jquery-ui-1.9.2.custom.css" />
 <script type="text/javascript" src="javascript/jquery.js"></script>
 <script type="text/javascript" src="javascript/jquery-ui-1.9.2.custom.js"></script>
