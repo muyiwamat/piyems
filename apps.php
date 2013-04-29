@@ -20,6 +20,27 @@ transitional.dtd">
 
 <div class="content">
   <div id="apps">
+    <?php
+// Create connection
+$con=mysql_connect("hawk.csd.abdn.ac.uk","wtstudent","DyNEDurA");
+
+// Check connection
+if (!$con)
+  {
+  die("Failed to connect to MySQL: " . mysql_error());
+  }
+  
+  mysql_select_db("webtech", $con);
+  $result = mysql_query("SELECT Name, Description, Price, Developer, ImageURL FROM apps");
+  while($row = mysql_fetch_array($result)) {
+    echo $row['Name'];
+    echo $row['Description'];
+    echo $row['Price'];
+    echo $row['Developer'];
+    echo $row['ImageURL'];
+  }
+  mysql_close($con);
+ ?>
     
   </div>
 
