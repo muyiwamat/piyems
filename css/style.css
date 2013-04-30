@@ -213,16 +213,9 @@ margin-left:20px;
 
 
 
-/*div.round {
-  border: 1px solid #2E2E2E;
-  width: 940px;
-  min-height:533px;
-  margin-top:2px;
-  margin-top:2px;
+/*All CSS related to the contact form */
   
-}*/
-
-div#contact_holder {
+div#contact_holder { /*this is so I can apply the background */
  float: left;
  margin-top: 30px;
    margin-bottom: 20px;
@@ -230,10 +223,9 @@ div#contact_holder {
    margin-right: 10px;
    width:400px;
     height:auto;
-    background-color:#008387;
+    background-color:#BDBDBD;
     box-shadow: 10px 10px 5px black;
 }
-
 div#contact_holder h1 {
  background-color:black;/*#878686;*/
  margin-top:0px;
@@ -241,16 +233,45 @@ div#contact_holder h1 {
  color:white;
 }
 
-#contactForm {
+#contactForm { /*For the form itself */
  margin-left: 30px;
  margin-top:20px;
+ font-family: raleway;
+ 
 }
+
+
+#contactForm  input.submit{
+
+color:black;
+font-size:16px;
+ 
+} 
+
 #contactForm p {
   /*color:#878686;*/
   font-size: 20px;
   font-weight:bold;
-  font-family: always_forever;
 }
+
+
+/* Classes for when error messages come up */
+
+.incomplete {
+	background:#008387;
+	color:white;
+}
+
+.error {
+	color:#008387;
+	display:none;
+  font-size:14px;
+  text-align:centre;
+  margin-left:20px;
+  
+}
+
+/*End CSS for contact form*/
 
 div#map {
  float:left;
