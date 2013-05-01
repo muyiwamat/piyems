@@ -1,14 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta charset="utf-8" />
 <title> Procastination Marketplace</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css' />
 <link rel="stylesheet"  type="text/css" href="css/jquery-ui-1.9.2.custom.css" />
 <script type="text/javascript" src="javascript/jquery.js"></script>
 <script type="text/javascript" src="javascript/jquery-ui-1.9.2.custom.js"></script>
 
-<script>
+<script type="text/javascript">
 $( document ).ready(function() {
    $(function() {
    $( "#featured" ).accordion({
@@ -93,7 +94,7 @@ $( document ).ready(function() {
              <h3>Later &#45; I have singing to do</h3>
              <div>
              <img src="http://www.katiejoyce.com/files/QuickSiteImages/KaraokeSinger.gif" alt="app logo"/>
-               <p>Price $4.99<p/>
+               <p>Price $4.99</p>
                <p>Manufacturer:  A.DemaIn</p>
                <p class ="con">
                Everybody loves singing along with their favourite artist or song
