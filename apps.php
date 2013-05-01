@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <title> Procastination Marketplace | Apps</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 <script type="text/javascript" src="javascript/scripts.js"></script>
 
 </head>

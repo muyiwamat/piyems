@@ -4,8 +4,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <title> Procastination Marketplace | Contact</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="javascript/jquery.js"></script>
 <script type="text/javascript" src="javascript/validation.js"></script>
 
@@ -31,15 +31,14 @@
         <b class="error">e.g myemail@example.com</b>
         <p><label for="message">Comments:</label></p><textarea name="message" id="message" rows="6" cols="40"></textarea></p>
         <p class="error">Some errors were found</p>
-        <p><input type="submit" value="Submit" class="submit">
-        <input type="reset" value="Clear form" class="submit"></p>
-        </fieldset>
+        <p><input type="submit" value="Submit" class="submit" />
+        <input type="reset" value="Clear form" class="submit" /></p>
             
-        <input type="hidden" name="username" value="t02mam12">
-        <input type="hidden" name="webmasteremail" value="m.a.matuluko.12@aberdeen.ac.uk">
+        <input type="hidden" name="username" value="t02mam12" />
+        <input type="hidden" name="webmasteremail" value="m.a.matuluko.12@aberdeen.ac.uk" />
         <input type="hidden" name="homepage" value="www.abdn.ac.uk/~t02mam12/">
         </form>
-        <p> </p>
+        <p></p>
 </div>
   
 <div id="map">
