@@ -12,6 +12,7 @@
 $( document ).ready(function() {
    $(function() {
    $( "#featured" ).accordion({
+   collapsible: true,
    heightStyle: "content"
    });
    });
@@ -58,6 +59,7 @@ $( document ).ready(function() {
         <div id="featured">
              <h3>Unhappy Cats Reclaiming the Backstreets</h3>
              <div>
+             <img src="http://farm8.staticflickr.com/7015/6572196991_c827f8025f_z.jpg" alt="app logo"/>
                <p>Price: $0.69</p>
                <p>Manufacturer: Maybe2moro</p>
                
@@ -75,6 +77,7 @@ $( document ).ready(function() {
              
              <h3>F1 Car Designer</h3>
              <div>
+             <img src="http://img47.imageshack.us/img47/7747/iwetoyota1an7.jpg" alt="app logo"/>
                <p>Price: $10,000</p>
                <p>Manufacturer: Manana</p>
                <p class="con">
@@ -89,6 +92,7 @@ $( document ).ready(function() {
              
              <h3>Later &#45; I have singing to do</h3>
              <div>
+             <img src="http://www.katiejoyce.com/files/QuickSiteImages/KaraokeSinger.gif" alt="app logo"/>
                <p>Price $4.99<p/>
                <p>Manufacturer:  A.DemaIn</p>
                <p class ="con">

@@ -16,6 +16,7 @@
 
 
 <div class="content">
+<h1>App List</h1>
   <div id="apps">
     <?php
 // Create connection
@@ -29,13 +30,29 @@ if (!$con)
   
   mysql_select_db("webtech", $con);
   $result = mysql_query("SELECT Name, Description, Price, Developer, ImageURL FROM apps");
-  while($row = mysql_fetch_array($result)) {
-    echo $row['Name'];
-    echo $row['Description'];
-    echo $row['Price'];
-    echo $row['Developer'];
-    echo $row['ImageURL'];
+  ?>
+   <table cellspacing="0">
+   <tr>
+   <th>Name</th>
+   <th>Description</th>
+   <th>Developer</th>
+   <th>Price</th>
+   </tr>
+   
+   <?php
+  while($row = mysql_fetch_array($result))
+  {
+    echo "<tr>"
+    echo "<td><img src=\"".$row['ImageURL']."\"/><h3>".$row['Name']."</h3></td>";
+    echo "<td>".$row['Description']."</td>";
+    echo "<td>".$row['Price']."</td>";
+    echo "<td>".$row['Developer']."</td>";
+    echo "</tr>";
+    
   }
+  ?>
+  </table>
+  <?php
   mysql_close($con);
  ?>
     

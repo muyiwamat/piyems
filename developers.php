@@ -19,10 +19,10 @@
   <div id="devs">
     <h1>Our Developers</h1>
     <div id="dev_tab">
-    <table border="1" bordercolor="#008387">
-    <tr>
-      <td><h3>A.DemaIn</h3><img src="logos/a.demain-logo.png" alt="A.Demain Logo"/></td>
-      <td class="dev_info_odd"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <table cellspacing="0">
+    <tr class="dev_info_odd">
+      <td><img src="logos/a.demain-logo.png" alt="A.Demain Logo"/><h3>A.DemaIn</h3></td>
+      <td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Sed ut sapien quis lorem iaculis faucibus id non elit.
       <br/>Nam lacinia vulputate enim, vitae vestibulum nisi vehicula id.
       Morbi sit amet sagittis diam. Sed accumsan,<br/> mi non aliquam euismod,
@@ -33,9 +33,9 @@
       sed sollicitudin turpis porttitor quis</p></td>
     </tr>
     
-    <tr>
-      <td><h3>Manana</h3><img src="logos/manana-logo.png" alt="Manana Logo"/></td>
-      <td class="dev_info_even"><p>Nam lacinia vulputate enim, vitae vestibulum nisi vehicula id.
+    <tr class="dev_info_even">
+      <td><img src="logos/manana-logo.png" alt="Manana Logo"/><h3>Manana</h3></td>
+      <td><p>Nam lacinia vulputate enim, vitae vestibulum nisi vehicula id.
       Morbi sit amet sagittis diam. Sed accumsan,<br/> mi non aliquam euismod,
       nisl lectus rhoncus nisl, sagittis fringilla massa neque id mi.
       Nam metus tortor,<br/> lobortis ut pulvinar quis, euismod sed dolor.
@@ -44,9 +44,9 @@
       sed sollicitudin turpis porttitor quis.</p></td>
     </tr>
     
-    <tr>
-      <td><h3>Maybe2moro</h3><img src="logos/maybe2moro-logo.png" alt="Maybe2moro Logo"/></td>
-      <td class="dev_info_odd"><p>Nam lacinia vulputate enim, vitae vestibulum nisi vehicula id.
+    <tr class="dev_info_odd">
+      <td><img src="logos/maybe2moro-logo.png" alt="Maybe2moro Logo"/><h3>Maybe2moro</h3></td>
+      <td><p>Nam lacinia vulputate enim, vitae vestibulum nisi vehicula id.
       Morbi sit amet sagittis diam. Sed accumsan,<br/> mi non aliquam euismod,
       nisl lectus rhoncus nisl, sagittis fringilla massa neque id mi.
       Nam metus tortor,<br/> lobortis ut pulvinar quis, euismod sed dolor.
