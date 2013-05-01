@@ -26,17 +26,17 @@
     <h1>Contact us by email</h1>
         <form id="contactForm" method="post" action="post.php">
         
-        <p><label for="name">Name: </label><input type="text" name="name" id="name" size ="40"></p>
-        <p><label for="email">Email: </label> <input type="text" name="email" id="email" size ="40"></p>
+        <p><label for="name">Name: </label><input type="text" name="name" id="name" size ="40" /></p>
+        <p><label for="email">Email: </label> <input type="text" name="email" id="email" size ="40" /></p>
         <b class="error">e.g myemail@example.com</b>
-        <p><label for="message">Comments:</label></p><textarea name="message" id="message" rows="6" cols="40"></textarea></p>
+        <p><label for="message">Comments:</label><textarea name="message" id="message" rows="6" cols="40"></textarea></p>
         <p class="error">Some errors were found</p>
         <p><input type="submit" value="Submit" class="submit" />
         <input type="reset" value="Clear form" class="submit" /></p>
             
         <input type="hidden" name="username" value="t02mam12" />
         <input type="hidden" name="webmasteremail" value="m.a.matuluko.12@aberdeen.ac.uk" />
-        <input type="hidden" name="homepage" value="www.abdn.ac.uk/~t02mam12/">
+        <input type="hidden" name="homepage" value="www.abdn.ac.uk/~t02mam12/" />
         </form>
         <p></p>
 </div>
