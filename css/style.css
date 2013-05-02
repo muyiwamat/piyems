@@ -323,7 +323,7 @@ div.devs h1 {
 
 .dev_tab p{
  margin-left:30px;
- margin-top:-20px;
+ margin-top:20px;
  font-size:14px;
 }
 
@@ -336,6 +336,13 @@ div.devs h1 {
 
 .dev_tab table {
  width:823px;
+ 
+}
+
+.dev_tab table th {
+ font-size:18px;
+ background-color: #008387;
+
 }
 
 tr.dev_info_odd {

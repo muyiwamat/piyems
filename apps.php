@@ -35,7 +35,7 @@ if (!$con)
   mysql_select_db("webtech", $con);
   $result = mysql_query("SELECT Name, Description, Price, Developer, ImageURL FROM apps");
   
-  echo "<table cellspacing='0'>
+  echo "<table cellspacing='2' border='1' style= 'border-color:#008387;'>
    <tr>
    <th>Name</th>
    <th>Description</th>
