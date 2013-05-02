@@ -51,7 +51,7 @@ $( document ).ready(function() {
         
        <p> And oh.. don't forget to share the love by liking us on Facebook. Cheers!</p>
          <div align="center" style="background-color:black;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fproc-mark.herokuapp.com&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=dark&amp;action=recommend&amp;height=35" 
-         scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
+         scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" ></iframe>
         </div>
         </div>
         <div id="app_holder">
