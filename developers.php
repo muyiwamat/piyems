@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <title> Procastination Marketplace | Developers</title>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
 
 </head>
 <body background="music_back.png">
@@ -18,7 +19,7 @@
   
 
 <div class="content">
-  <div id="devs">
+  <div class="devs">
     <h1>Our Developers</h1>
     <div class="dev_tab">
     <table cellspacing="0">

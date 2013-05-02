@@ -6,6 +6,7 @@
 <title> Procastination Marketplace | Contact</title>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
 <script type="text/javascript" src="javascript/jquery.js"></script>
 <script type="text/javascript" src="javascript/validation.js"></script>
 

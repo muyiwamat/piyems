@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <title> Procastination Marketplace</title>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
-<link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
 <link rel="stylesheet"  type="text/css" href="css/jquery-ui-1.9.2.custom.css" />
 <script type="text/javascript" src="javascript/jquery.js"></script>
 <script type="text/javascript" src="javascript/jquery-ui-1.9.2.custom.js"></script>
@@ -31,30 +31,29 @@ $( document ).ready(function() {
     
     <div class="content">
         <div id="holder">
-         <h1> About Us </h1>
-        <p> Muyiwa Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Sed leo erat, volutpat sed
-            sollicitudin non, auctor non arcu. Proin
-            interdum elementum dui a rhoncus. Nulla
-            feugiat, leo eu sagittis tincidunt, nisl mi
-            ullamcorper nisi, nec malesuada nibh
-            lacus vitae enim. Mauris pharetra ligula a
-            lacus sagittis tincidunt. Mauris suscipit
-            commodo massa et fermentum. Sed
-            sollicitudin lectus id mauris viverra non
-            auctor lacus adipiscing. Praesent eu nibh
-            ut mauris commodo varius. Praesent
-            auctor cursus eros nec hendrerit. Ut
-            semper venenatis commodo. Cras
-            fringilla tincidunt justo, in condimentum
-            massa blandit vel. Morbi quis porta leo.
-            Cras suscipit ante eget lorem imperdiet
-            non ullamcorper nisl vulputate. Nulla
-            mollis tristique dui. elementum dui a
-            rhoncus. Nulla feugiat, leo eu sagittis
-            tincidunt, nisl mi ullamcorper nisi,
-            elementum dui a rhoncus.
-         </p>
+        <h1> About Us </h1>
+        <h2>We help you spend your time well</h2>
+        <p>Welcome to Procastination Marketplace, the place where all your daydreams come true</p>
+        
+        <p>Are you/Do you:</p>
+        <p><ul>
+          <li>Tired of unmeetable deadlines?</li>
+          <li>Wanting to spend more qualtiy time with yourself</li>
+          <li>Hate your well-paying job?</li>
+        </ul></p>
+        
+        <p>Well you have come to the write place. We at Procastination Marketplace provide
+        you with all the fun things you need to keep your mind of all these crazy work.
+        Our expert team of developers have created the best apps that any research and development
+        team could possibly afford. Our apps are very affordable and they work on all platforms.
+        You'd be impressed by how well they all meet your different needs.</p>
+        <p>Why don't you start by giving our apps on the featured tab to the right a try? We promise, you won't regret it</p>
+        
+       <p> And oh.. don't forget to share the love by liking us on Facebook. Cheers!</p>
+         <p><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fproc-mark.herokuapp.com%2F&amp;
+         send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=dark&amp;
+         action=recommend&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px; " allowTransparency="true"></iframe>
+        </p>
         </div>
         <div id="app_holder">
          <h1> Apps of the Month</h1>

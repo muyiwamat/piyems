@@ -1,38 +1,10 @@
-/* Font definitions */
-@font-face {
-	font-family: always_forever;
-	src: url('../fonts/alwaysforever.ttf');
-}
-
-@font-face {
-	font-family: always_foreverEI; /*For IE*/
-	src: url('../fonts/alwaysforever.eot');
-}
-
-@font-face {
-	font-family: tujsi;
-	src: url('../fonts/tujsi.ttf');
-}
-
-@font-face {
-	font-family: daniel;
-	src: url('../fonts/daniel.ttf');
-}
-
-@font-face {
-	font-family: raleway;
-	src: url('../fonts/raleway.otf');
-}
-
-@font-face {
-	font-family: rubbn;
-	src: url('../fonts/rubbn.ttf');
-}
+/* CSS */
 
 body {
-  font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+  font-family: Raleway,sans-serif;
   font-size:12px;
   background-image: url(images/lazy.png);
+  
 
 }
 
@@ -114,17 +86,19 @@ div.content {
     float: left;
     width:940px;
     height: auto;
-   /* background-image: url(../templates/content.png);
-    background-repeat: repeat-x;*/
+   background-image: url(../templates/content.png);
+    background-repeat: repeat-x;
+     opacity: 0.9;
+    filter:alpha(opacity=90); /* For IE8 and earlier */
     
     
 }
 
 
-
 div.content h1 {
   text-align: center;
   margin-top: 30px;
+  font-weight:100;
 }
 div.footer {
     position: relative;
@@ -145,18 +119,15 @@ div#featured {
    /* background-color: #008387;
     border-radius:23px;*/
     box-shadow: 10px 10px 5px #2E2E2E;
-    font-family: raleway,Trebuchet MS,Helvetica,Arial,Verdana,sans-serif;
-    font-size: 14px;
-      
+    font-family: Raleway,sans-serif;  
 }
 
 div#featured p {
   color:red;
-  font-weight:bold;
 }
 div#featured p.con {
-  color:/*#008387*/#08088A;
-  font-weight:normal;
+  color:#08088A;
+  
   
 }
 
@@ -178,50 +149,55 @@ div#app_holder{
 }
 div#app_holder h1 {
 margin-right: 45px;
-background-color:#008387;
+background-color:black;
 color:white;
  margin-top:0px;
  margin-bottom:5px;
- font-family:raleway;
-
- 
+ font-family:Raleway;
+ font-weight:100;
 }
 
 div#holder {
     float:left;
-    /*margin-left: 15px;*/
    margin-top: 30px;
    margin-bottom: 10px;
    margin-left:10px;
     width: 460px;
     height: auto;
-    background-color:#ffffff;
-    /*border:1px solid black;*/
-    opacity: 0.8;
-    filter:alpha(opacity=80); /* For IE8 and earlier */
-    
+    background-color:#BDBDBD; 
 }
+
 div#holder p {
   margin-left: 20px;
   margin-right: 15px;
   margin-top:10px;
-  font-family: 'Quicksand', sans-serif;
-  font-size:15px;
-  letter-spacing:2px;
-  
+  font-family: Raleway, sans-serif;
+  font-size:13px; 
+}
+
+div#holder ul li {
+  font-family: Raleway, sans-serif;
+  color:red;
+  font-size:12px;
+}
+
+div#holder h2 {
+  text-align:center;
+  margin-top:10px;
+  font-family: Raleway, sans-serif;
+  color:blue;
+  font-weight:200;
 }
 div#holder h1 {
   margin-top:8px;
 margin-bottom:0px;
 margin-left:0px;
- background-color:black;/*#878686;*/
+ background-color:black;
  color:white;
  margin-top:0px;
- font-family:raleway;
-
+ font-family:Raleway;
+font-weight:100;
 }
-
-
 
 
 /*All CSS related to the contact form */
@@ -240,15 +216,22 @@ div#contact_holder { /*this is so I can apply the background */
 div#contact_holder h1 {
  background-color:black;/*#878686;*/
  margin-top:0px;
- font-family:raleway;
+ font-family:Raleway;
  color:white;
+ font-weight:100;
 }
 
 #contactForm { /*For the form itself */
  margin-left: 30px;
  margin-top:20px;
- font-family: raleway;
+ font-family: Raleway;
+ font-weight:100;
  
+}
+
+#contactForm label {
+  font-family: Raleway;
+ font-weight:100;
 }
 
 
@@ -297,11 +280,12 @@ div#map h1 {
  background-color:black;/*#878686;*/
  margin-top:0px;
  margin-bottom:0px;
- font-family:raleway;
+ font-family:Raleway;
  color:white;
+ font-weight:100;
 }
 
-div#devs {
+div.devs {
    margin-top: 30px;
    margin-bottom: 30px;
    margin-left: 50px;
@@ -313,7 +297,7 @@ div#devs {
      font-family: raleway,Trebuchet MS,Helvetica,Arial,Verdana,sans-serif;
 }
 
-div#devs img {
+div.devs img {
   /*float:right;
   margin-left: 20px;*/
   /*background-color:#888888;*/
@@ -323,12 +307,12 @@ div#devs img {
  
 }
 
-div#devs h1 {
+div.devs h1 {
  background-color:#000000;
  color:white;
  margin-top:0px;
- font-family:raleway;
-
+ font-family:Raleway;
+ font-weight:100;
 }
 
 .dev_tab {
@@ -367,23 +351,3 @@ div#apps {
  border:2px solid #008387;
 }
 
-/* div#apps img {
-  float:left;
-  margin-right: 20px;
-  border:1px solid #008387;
-  background-color:#888888;
-  height: 150px;
-  width: 120px;
- 
-}
-div#apps h1 {
- background-color:#878686;
- margin-top:0px;
- font-family:raleway;
-} */
-
-/*
-.dev_list:hover {
-  color:black;
-  background-color: white;
-}*/

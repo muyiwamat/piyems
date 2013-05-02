@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <title> Procastination Marketplace | Apps</title>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
 <script type="text/javascript" src="javascript/scripts.js"></script>
 
 </head>
@@ -18,6 +19,7 @@
 
 
 <div class="content">
+<div class="devs">
 <h1>App List</h1>
   <div class="dev_tab">
     <?php
@@ -58,7 +60,7 @@ if (!$con)
  ?>
     
   </div>
-
+</div>
 </div>
 <?php include 'footer.php'; ?>
 </div>
