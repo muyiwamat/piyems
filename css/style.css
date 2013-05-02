@@ -331,26 +331,26 @@ div#devs h1 {
 
 }
 
-#dev_tab {
+.dev_tab {
  overflow:auto;
  height:420px;
  margin-top:-15px;
 }
 
-#dev_tab p{
+.dev_tab p{
  margin-left:30px;
  margin-top:-20px;
  font-size:14px;
 }
 
-#dev_tab h3{
+.dev_tab h3{
  background-color:#008387;
  text-align:center;
  margin-bottom:0px;
   margin-top:0px;
 }
 
-#dev_tab table {
+.dev_tab table {
  width:823px;
 }
 

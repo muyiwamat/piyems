@@ -20,7 +20,7 @@
 <div class="content">
   <div id="devs">
     <h1>Our Developers</h1>
-    <div id="dev_tab">
+    <div class="dev_tab">
     <table cellspacing="0">
     <tr class="dev_info_odd">
       <td><img src="logos/a.demain-logo.png" alt="A.Demain Logo"/><h3>A.DemaIn</h3></td>

@@ -19,7 +19,7 @@
 
 <div class="content">
 <h1>App List</h1>
-  <div id="apps">
+  <div class="dev_tab">
     <?php
 // Create connection
 $con=mysql_connect("hawk.csd.abdn.ac.uk","wtstudent","DyNEDurA");
@@ -32,29 +32,28 @@ if (!$con)
   
   mysql_select_db("webtech", $con);
   $result = mysql_query("SELECT Name, Description, Price, Developer, ImageURL FROM apps");
-  ?>
-   <table cellspacing="0">
+  
+  echo "<table cellspacing='0'>
    <tr>
    <th>Name</th>
    <th>Description</th>
    <th>Developer</th>
    <th>Price</th>
-   </tr>
+   </tr>";
    
-   <?php
   while($row = mysql_fetch_array($result))
   {
-    echo "<tr>"
-    echo "<td><img src=\"".$row['ImageURL']."\"/><h3>".$row['Name']."</h3></td>";
+    echo '<tr class="dev_info_odd">';
+        echo '<td><img src="'.$row['ImageURL'].'" width="200" alt="alternate name"/><h3>'.$row['Name'].'</h3></td>';
     echo "<td>".$row['Description']."</td>";
     echo "<td>".$row['Price']."</td>";
     echo "<td>".$row['Developer']."</td>";
     echo "</tr>";
     
   }
-  ?>
-  </table>
-  <?php
+  
+  echo "</table>";
+  
   mysql_close($con);
  ?>
     
