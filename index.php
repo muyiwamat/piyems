@@ -36,11 +36,11 @@ $( document ).ready(function() {
         <p>Welcome to Procastination Marketplace, the place where all your daydreams come true</p>
         
         <p>Are you/Do you:</p>
-        <p><ul>
+        <ul>
           <li>Tired of unmeetable deadlines?</li>
           <li>Wanting to spend more qualtiy time with yourself</li>
           <li>Hate your well-paying job?</li>
-        </ul></p>
+        </ul>
         
         <p>Well you have come to the write place. We at Procastination Marketplace provide
         you with all the fun things you need to keep your mind of all these crazy work.
@@ -50,10 +50,9 @@ $( document ).ready(function() {
         <p>Why don't you start by giving our apps on the featured tab to the right a try? We promise, you won't regret it</p>
         
        <p> And oh.. don't forget to share the love by liking us on Facebook. Cheers!</p>
-         <p><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fproc-mark.herokuapp.com%2F&amp;
-         send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=dark&amp;
-         action=recommend&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px; " allowTransparency="true"></iframe>
-        </p>
+         <div align="center" style="background-color:black;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fproc-mark.herokuapp.com&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=dark&amp;action=recommend&amp;height=35" 
+         scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
+        </div>
         </div>
         <div id="app_holder">
          <h1> Apps of the Month</h1>
