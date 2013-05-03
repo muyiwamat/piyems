@@ -25,37 +25,21 @@
     <table cellspacing="0">
     <tr class="dev_info_odd">
       <td><img src="logos/a.demain-logo.png" alt="A.Demain Logo"/><h3>A.DemaIn</h3></td>
-      <td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Sed ut sapien quis lorem iaculis faucibus id non elit.
-      <br/>Nam lacinia vulputate enim, vitae vestibulum nisi vehicula id.
-      Morbi sit amet sagittis diam. Sed accumsan,<br/> mi non aliquam euismod,
-      nisl lectus rhoncus nisl, sagittis fringilla massa neque id mi.
-      Nam metus tortor,<br/> lobortis ut pulvinar quis, euismod sed dolor.
-      Class aptent taciti sociosqu ad litora torquent per conubia,<br/>
-      per inceptos himenaeos. Vestibulum sollicitudin luctus nibh,
-      sed sollicitudin turpis porttitor quis</p></td>
+      <td><p>A.Demain was a company started by a group of inteligent Africans back in 2006.<br />
+       At A.Demain, the motto is "why do now, what you can always do later? </p>
+      <p>The A. Demain team bring you the most crazily innovative apps you can ever dream about</p></td>
     </tr>
     
     <tr class="dev_info_even">
       <td><img src="logos/manana-logo.png" alt="Manana Logo"/><h3>Manana</h3></td>
-      <td><p>Nam lacinia vulputate enim, vitae vestibulum nisi vehicula id.
-      Morbi sit amet sagittis diam. Sed accumsan,<br/> mi non aliquam euismod,
-      nisl lectus rhoncus nisl, sagittis fringilla massa neque id mi.
-      Nam metus tortor,<br/> lobortis ut pulvinar quis, euismod sed dolor.
-      Class aptent taciti sociosqu ad litora torquent per conubia,<br/>
-      per inceptos himenaeos. Vestibulum sollicitudin luctus nibh,
-      sed sollicitudin turpis porttitor quis.</p></td>
+      <td><p>Manana are the epitome of procastination. When you order their apps, thet do not come until 24 hours after they promise to deliver it.
+      This way, they keep true to their name. We only hope that you can be humorous enough to get the joke.</p></td>
     </tr>
     
     <tr class="dev_info_odd">
       <td><img src="logos/maybe2moro-logo.png" alt="Maybe2moro Logo"/><h3>Maybe2moro</h3></td>
-      <td><p>Nam lacinia vulputate enim, vitae vestibulum nisi vehicula id.
-      Morbi sit amet sagittis diam. Sed accumsan,<br/> mi non aliquam euismod,
-      nisl lectus rhoncus nisl, sagittis fringilla massa neque id mi.
-      Nam metus tortor,<br/> lobortis ut pulvinar quis, euismod sed dolor.
-      Class aptent taciti sociosqu ad litora torquent per conubia,<br/>
-      per inceptos himenaeos. Vestibulum sollicitudin luctus nibh,
-      sed sollicitudin turpis porttitor quis.</p></td>
+      <td><p>Are you sick of conventional apps? Do you wish you could use your apps by coughing, spitting, laughing or eating? The
+      developers t M"M are your best bet. They delevop the most unconventional apps ever. Give them a try!</p></td>
     </tr>
     </table>
     </div>
